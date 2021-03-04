@@ -1,4 +1,4 @@
-requests
-flask
-redis
-rq
+Flask             1.1.2
+redis             3.5.3
+requests          2.25.1
+rq                1.7.0

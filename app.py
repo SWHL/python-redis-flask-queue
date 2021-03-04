@@ -2,7 +2,7 @@ from flask import Flask, request
 from rq import Queue
 from rq.job import Job
 
-from worker import conn, square_function
+from task import conn, square_function
 
 app = Flask(__name__)
 
