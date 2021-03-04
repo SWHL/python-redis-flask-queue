@@ -8,7 +8,8 @@
 - `app.py`: 搭建flask框架
 
 #### 运行步骤
-1. ~~`python worker.py`启动`redis server`~~ 这种方式不能有效执行，目前不清楚问题在哪里？
-1. `rq worker` 启动`redis server`
-2. `python app.py`启动`flask`服务
-3. `python test.py`发送post和get请求，打印队列中任务执行结果
+~~`python worker.py`启动`redis server`~~ 这种方式不能有效执行，目前不清楚问题在哪里？
+1. 启动redis
+2. `rq worker` 启动`redis server`
+3. `python app.py`启动`flask`服务
+4. `python test.py`发送post和get请求，打印队列中任务执行结果
